@@ -34,3 +34,19 @@ section img {
   background: goldenrod;
   width: 100%;
 }
+
+.sticky {
+  display: flex;
+  margin-top: 40vh;
+  margin-bottom: 150vh;
+  border: 3px solid gray;
+}
+
+.box {
+  background: salmon;
+  width: 150px;
+  height: 150px;
+
+  position: sticky;
+  top: 50px;
+}

@@ -1,11 +1,16 @@
 {
-  "svg.preview.background": "dark-transparent",
+  "svg.preview.background": "transparent",
   "liveSassCompile.settings.formats": [
     {
       "format": "expanded",
       "extensionName": ".css",
-      "savePath": null,
+      "savePath": "~/../css",
       "savePathReplacementPairs": null
     }
+  ],
+  "liveSassCompile.settings.excludeList": [
+    "/**/node_modules/**",
+    "/.vscode/**",
+    "/sass/**"
   ]
 }

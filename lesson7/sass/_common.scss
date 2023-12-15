@@ -7,6 +7,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 // bodyの初期スタイル調整
 body {
   font-size: 16px;
@@ -151,4 +155,11 @@ section {
   .pc-only {
     display: block;
   } 
+}
+
+// 電話番号リンクの設定
+@include mq {
+  a[href^="tel:"] {
+    pointer-events: none;
+  }
 }

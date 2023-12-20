@@ -12,7 +12,8 @@
     "/**/node_modules/**",
     "/.vscode/**",
     "/sass/**",
-    "/lesson7/**"
+    "/lesson7/**",
+    "/lesson8/**"
   ],
   "liveServer.settings.port": 5501,
 }

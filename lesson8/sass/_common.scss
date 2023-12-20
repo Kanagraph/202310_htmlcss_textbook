@@ -171,11 +171,11 @@ body.open {
   @include mq {
     position: static;
     flex-direction: row;
-    background-color: grey;
     transform: none;
     justify-content: flex-end;
     width: auto;
     height: auto;
+    background: transparent;
   }
 
 }

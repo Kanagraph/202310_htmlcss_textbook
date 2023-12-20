@@ -6,3 +6,8 @@ window.addEventListener('DOMContentLoaded', () => {
     document.body.classList.toggle('open');
   });
 });
+
+// Fancybox
+Fancybox.bind("[data-fancybox]", {
+  // Your custom options
+});

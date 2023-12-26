@@ -303,4 +303,130 @@ body.top.open .header-button .icon::before, body.top.open .header-button .icon::
     margin-left: 0;
     position: relative;
   }
+}
+
+.top-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+.top-list li {
+  width: 100%;
+  padding: 0 10px;
+  margin-bottom: 30px;
+}
+.top-list li a {
+  display: flex;
+  align-items: center;
+}
+.top-list li img {
+  flex: 0 1 90px;
+}
+.top-list li .top-list_info {
+  margin-left: 20px;
+}
+.top-list li time {
+  font-size: 14px;
+  color: var(--text-color);
+}
+.top-list li .top-list_title {
+  margin-top: 0.25em;
+  line-height: 1.4;
+}
+@media screen and (min-width: 768px) {
+  .top-list li {
+    width: 50%;
+  }
+}
+
+.news-article {
+  margin-top: 20px;
+  max-width: 800px;
+}
+.news-article .news-eyecatch {
+  text-align: center;
+}
+.news-article h2 {
+  font-size: 22px;
+  line-height: 1.4;
+  margin-bottom: 0.5em;
+}
+.news-article time {
+  font-size: 12px;
+}
+.news-article h3,
+.news-article h4 {
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+.news-article h3 {
+  font-size: 19px;
+}
+.news-article h4 {
+  font-size: 17px;
+}
+.news-article figure {
+  text-align: center;
+  margin: 0;
+}
+.news-article figcaption {
+  font-size: 14px;
+}
+.news-article blockquote {
+  border-left: 5px solid #dcd6cb;
+  margin-left: 0;
+  padding-left: 0.8em;
+}
+.news-article ul,
+.news-article ol {
+  padding-left: 1.5em;
+}
+.news-article ul {
+  list-style: disc;
+}
+@media screen and (min-width: 768px) {
+  .news-article h2 {
+    font-size: 24px;
+  }
+  .news-article time {
+    font-size: 14px;
+  }
+}
+
+.faq-section {
+  max-width: 800px;
+}
+.faq-section .faq-content {
+  margin-bottom: 60px;
+}
+.faq-section h2,
+.faq-section p {
+  margin-top: 1.2em;
+  display: flex;
+}
+.faq-section h2::before,
+.faq-section p::before {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1;
+  margin-top: -0.16em;
+  margin-right: 15px;
+}
+.faq-section h2::before {
+  content: "Q";
+}
+.faq-section p::before {
+  content: "A";
+  color: #4eb0b5;
+}
+@media screen and (min-width: 768px) {
+  .faq-section h2,
+  .faq-section p {
+    margin-top: 2em;
+  }
+  .faq-section h2::before,
+  .faq-section p::before {
+    margin-top: -0.2em;
+    font-size: 55px;
+  }
 }/*# sourceMappingURL=style.css.map */
